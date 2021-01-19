@@ -1,0 +1,18 @@
+.navbar{
+    background: transparent;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 200;
+}
+
+.navbar.active{
+    background: rgb(12, 12, 12);
+}
+
+.navbar-content{
+    display: flex;
+    align-items: center;
+    max-width: 2000px;
+}
