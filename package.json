@@ -13,6 +13,7 @@
     "@material-ui/utils": "^4.11.2",
     "@react-icons/all-files": "^4.1.0",
     "aos": "^2.3.4",
+    "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
