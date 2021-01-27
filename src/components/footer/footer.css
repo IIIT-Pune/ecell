@@ -1,0 +1,18 @@
+.foot{
+    width: 100%;
+    background: #001427;
+    color: #FDCA40;
+    padding: 0;
+    letter-spacing: 0.05rem;
+    text-align: left;
+    font-family: 'Montserrat',sans-serif;
+} 
+.centerone{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.icon{
+    color: white;
+    display: inline-block;
+}

@@ -1,0 +1,43 @@
+.main{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.05rem;
+    padding: 75px 0 0;
+    text-align: center;
+    background-color:#001427;
+}
+h1{
+    padding: 5px;
+    margin-bottom: 4px; 
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 72px;
+    display: inline-block;
+}
+.para{
+    color: rgba(232, 238, 242, 0.75);
+    width: 50%;
+    padding-bottom: 15px;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: center;
+}
+.card{
+    background-color: transparent;
+    color: rgba(232, 238, 242, 0.75);
+    font-size: 16px;
+    border: 0px;
+}
+.card:hover{
+    transform: translateY(-10px) scale(1.05) rotateX(15deg);
+    box-shadow: 0 8px 9px 3px rgba(230, 224, 224, 0.6);
+    transition: ease-in;
+}
+.cardtitle{
+    font-size: 35px;
+    font-weight: 50;
+    color:#FDCA40;
+}
+
