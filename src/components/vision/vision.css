@@ -32,7 +32,7 @@ h1{
 }
 .card:hover{
     transform: translateY(-10px) scale(1.05) rotateX(15deg);
-    box-shadow: 0 8px 9px 3px rgba(230, 224, 224, 0.6);
+    box-shadow: 0 8px 9px 3px #fdca40;
     transition: ease-in;
 }
 .cardtitle{
@@ -40,4 +40,6 @@ h1{
     font-weight: 50;
     color:#FDCA40;
 }
-
+BiBrain:hover{
+    color: #fdca40;
+}
