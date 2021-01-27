@@ -28,6 +28,10 @@ const Contact = () => {
       }).catch(err=>{
           console.log(err);
       })
+      setname("");
+      setmessage("");
+      seteamil("");
+      setsubject("");
     }
     return (
       <div className="mainb">
