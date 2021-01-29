@@ -1,18 +1,23 @@
-.navbar{
-    background: transparent;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    position: sticky;
-    z-index: 200;
+a {
+  font-size: 20px;
+  color: rgb(5, 5, 39);
 }
-
-.navbar.active{
-    background: rgb(12, 12, 12);
+.navbar {
+  background: transparent;
+  color: rgb(5, 5, 39);
+  padding: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
-
-.navbar-content{
-    display: flex;
-    align-items: center;
-    max-width: 2000px;
+.navbar-brand {
+  font-size: 12px !important;
+  padding: 0px !important;
+}
+.logo {
+  justify-content: flex-start;
+  width: 120px;
+  height: 90px;
+}
+.justify-content-end {
+  padding-right: 38px;
 }
