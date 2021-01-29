@@ -35,14 +35,14 @@ const Contact = () => {
     }
     return (
       <div className="mainb">
-        <h1 style={{ color: "#001427" }}>Get in</h1>
-        <h1 style={{ color: "#FDCA40" }}>Touch</h1>
+        <h1 style={{ color: "#001427" }} data-aos="fade-up">Get in</h1>
+        <h1 style={{ color: "#FDCA40" }} data-aos="fade-up">Touch</h1>
         <p
           style={{
             color: "rgba(0, 20, 39, 0.75)",
             marginTop: "-9px",
             marginBottom: "10vh",
-          }}
+          }} data-aos="fade-up"
         >
           Leave a message to contact our team
         </p>

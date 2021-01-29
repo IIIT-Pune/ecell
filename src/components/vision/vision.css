@@ -1,8 +1,9 @@
 .main{
+    position: relative;
     width: 100%;
     height: auto;
     margin: 0 auto;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     letter-spacing: 0.05rem;
     padding: 75px 0 0;
     text-align: center;
@@ -18,8 +19,8 @@ h1{
 }
 .para{
     color: rgba(232, 238, 242, 0.75);
-    width: 50%;
-    padding-bottom: 15px;
+    width: 55%;
+    padding-bottom: 10px;
     font-size: 19px;
     line-height: 27px;
     text-align: center;
@@ -32,14 +33,12 @@ h1{
 }
 .card:hover{
     transform: translateY(-10px) scale(1.05) rotateX(15deg);
-    box-shadow: 0 8px 9px 3px #fdca40;
-    transition: ease-in;
+    box-shadow: 2px 3px 5px 3px #fdca40;
+    transition: ease-in 0.1s;
 }
 .cardtitle{
     font-size: 35px;
     font-weight: 50;
     color:#FDCA40;
 }
-BiBrain:hover{
-    color: #fdca40;
-}
+
