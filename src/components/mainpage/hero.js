@@ -27,7 +27,7 @@ const Hero = () => {
               <li><a href="#"><InstagramIcon style={{fontSize:'45px'}}/></a></li>
               <li><a href="#"><FacebookIcon style={{fontSize:'45px'}}/></a></li>
               <div className="bar ml-2"></div>
-              <div id="vertical"><a href="vision" style={{textDecoration:'none'}}>click here &rarr;</a></div>
+              <div id="vertical"><a href="vision" style={{textDecoration:'none'}}>IDEATHON &rarr;</a></div>
             </ul>
           </div>
         </Container>

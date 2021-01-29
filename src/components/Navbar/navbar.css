@@ -2,6 +2,10 @@ a {
   font-size: 20px;
   color: rgb(5, 5, 39);
 }
+a:hover{
+  animation: fade-up;
+  color: rgb(5, 5, 39);
+}
 .navbar {
   background: transparent;
   color: rgb(5, 5, 39);

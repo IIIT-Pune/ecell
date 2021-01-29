@@ -9,31 +9,32 @@ const Events = () => {
             </div>
         <Row>
             <Col md="6" xl="6" className="box">
-                <img className="thumbnail image" src="https://images.unsplash.com/photo-1436262513933-a0b06755c784?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"/>
+                    <img className="thumbnail image" src={require("../../images/quiz.jpg")}/>
                 <div className="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores sequi velit quis doloremque ad est nisi laudantium quod? Architecto.
+                Entrepreneurship is a dynamic concept. It changes as the nations develop. The millennials aiming to be the exemplar figures of tomorrow ought to keep themselves informed of the history and future of entrepreneurship as success in any domain demands awareness. Test your knowledge and responsiveness in the field of entrepreneurship through the E-Quiz.
                 </div>                
             </Col>
             <div className="col-lg-6 col-md-6 box">
-                <img className="thumbnail image" src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"/>
+                    <img className="thumbnail image" src={require("../../images/Product.jpg")}/>
                 <div className="text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis harum molestias eum esse quis magnam corporis aut repellat maiores quidem.
+                Ideas require an environment to connect before turning into viable products. Productathon is a medium through which one can pitch in these ideas regarding problem statements assigned to the tech-enthusiasts by building prototypes of their products as proofs of concept. A top-notch product ensures economical feasibility, environment sustainability and advancement in technology.
+
                 </div>                
             </div>
             <div className="col-lg-4 col-md-6 box">
-                <img className="thumbnail image" src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"/>
+                    <img className="thumbnail image" src={require("../../images/Speaker.jpg")}/>
                 <div className="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptas minus adipisci necessitatibus. Distinctio amet facere facilis sit fugit. Expedita?
+                Hear directly from the leading high-tech entrepreneurs about how they turned their thoughts into success stories. Get energised and stimulate your entrepreneurial interests as the independent business leaders render the insider knowledge through their experience. Interact and learn from the exemplar figures as you embark your journey of being the next visionary entrepreneur.
                 </div>                
             </div>
             <div className="col-lg-4 col-md-6 box">
-                <img className="thumbnail image" src="https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"/>
+                    <img className="thumbnail image" src={require("../../images/Hack.jpg")}/>
                 <div className="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut consectetur dolorum ratione, odio aliquam facilis! Nobis hic ipsa earum?
+                    An inventive mind creates resourceful products inspired from the best. Designing software based products with accurate amounts of innovation, design and user-friendly techniques to solve the given problems is the gist of any Hackathon. Connect with like-minded people to combine your enthusiasm levels to come up with authentic software solutions. 
                 </div>             
             </div>
             <div className="col-lg-4 col-md-6 box">
-                <img className="thumbnail image" src="https://images.unsplash.com/photo-1439396087961-98bc12c21176?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450" />
+                <img className="thumbnail image" src={require("../../images/idea.jpg")} />
                 <div className="text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, modi veniam! Culpa, molestias corporis illum delectus numquam ipsam dolores amet.
                 </div>                
