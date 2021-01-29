@@ -1,86 +1,50 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'gatsby';
+import React, { useState } from 'react';
 import './navbar.css';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+} from 'reactstrap';
+import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 
-function Navbar() {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+const Example = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
+  const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src="https://cdn.discordapp.com/attachments/804354977467465790/804357385559998565/lastcell49.png" style={{height:'80px', width:'92px', margin:'10px'}}></img>
-          </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links ml-5' onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Vision
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Events
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Resources
-              </Link>
-            </li>
-            <li>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Team
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </>
+    <div>
+      <Navbar className="navbar" expand="md">
+        <NavbarBrand href="/" className="navbar-brand mx-auto"><img className="logo mx-auto" src="https://cdn.discordapp.com/attachments/804354977467465790/804357385559998565/lastcell49.png"></img></NavbarBrand>
+        <NavbarToggler onClick={toggle} style={{marginRight:'50px'}} >
+          <MenuRoundedIcon style={{ color: "#001427" }} />
+        </NavbarToggler>
+        <Collapse isOpen={isOpen} navbar>
+          <Nav navbar className="justify-content-end ml-auto px-3">
+            <NavItem>
+              <NavLink href="/">Home</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Events</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Resources</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Team</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
   );
 }
 
-export default Navbar;
+export default Example;

@@ -1,17 +1,15 @@
 import React from 'react'
 import './hero.css';
 import { Container } from 'reactstrap';
-import Navbar from '../Navbar/navbar';
+import Navbars from '../Navbar/navbar';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import { Link } from '@material-ui/icons';
 
 const Hero = () => {
   return (
-
     <div className="herobg">
-      <Navbar />
+      <Navbars />
       <div>
         <Container fluid className="mx-auto hero-container">
           <p style={{height:'20px', lineHeight:'30px'}}>Think. Innovate. Sell. Prosper.</p>
@@ -29,7 +27,7 @@ const Hero = () => {
               <li><a href="#"><InstagramIcon style={{fontSize:'45px'}}/></a></li>
               <li><a href="#"><FacebookIcon style={{fontSize:'45px'}}/></a></li>
               <div className="bar ml-2"></div>
-              <div id="vertical"><a href="#vision" style={{textDecoration:'none'}}>click here &rarr;</a></div>
+              <div id="vertical"><a href="vision" style={{textDecoration:'none'}}>click here &rarr;</a></div>
             </ul>
           </div>
         </Container>

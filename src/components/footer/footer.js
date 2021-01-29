@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <MailIcon className="mr-2" style={{fontSize: '6vh',display:'inline-block',verticalAlign:'top' }} />
-                        <p style={{display: 'inline-block',fontSize:'18px',marginTop:'5px' }}>
+                        <p style={{display: 'inline-block',fontSize:'18px',marginTop:'8px' }}>
                         <a href="mailto:ecell@iiitp.ac.in" style={{textDecoration:'none',color:'white'}}>ecell@iiitp.ac.in</a>
                         </p>
                     </div>    

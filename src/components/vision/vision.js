@@ -20,7 +20,7 @@ const Vision = () => {
             delay: 100 });
     }, [])
     return (
-        <div className="main">
+        <div className="main" id="#vision">
             <h1 style={{color:'white'}} data-aos="fade-up">Our</h1>
             <h1 style={{ color: '#FDCA40' }} data-aos="fade-up">Vision</h1>
             <Container className="para" data-aos="fade-up">
