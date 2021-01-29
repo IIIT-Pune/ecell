@@ -4,7 +4,9 @@ import { Row,Col } from 'reactstrap';
 const Events = () => {
     return (
         <div className="eventbody p-5">
-        <h2 style={{fontSize:'55px',color:'white',fontWeight:'bold'}}>Eve<h2 style={{fontSize:'55px',color:'#FDCA40',display:'inline-block',fontWeight:'bold'}}>nts</h2></h2>
+            <div data-aos="fade-up">
+            <h2 style={{fontSize:'55px',color:'white',fontWeight:'bold'}}>Eve<h2 style={{fontSize:'55px',color:'#FDCA40',display:'inline-block',fontWeight:'bold'}}>nts</h2></h2>
+            </div>
         <Row>
             <Col md="6" xl="6" className="box">
                 <img className="thumbnail image" src="https://images.unsplash.com/photo-1436262513933-a0b06755c784?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"/>
