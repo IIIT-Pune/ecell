@@ -9,41 +9,44 @@ import './footer.css';
 
 const Footer = () => {
     return (
-        <div className="foot">
-            <Container fluid style={{textAlign:'center'}}>
-            <Row className="leftone">
-                <Col className="m-2 col-xl-2">
-                    <img src="https://raw.githubusercontent.com/satty26/ideathon/main/images/cellt.png" style={{ height: '100px', width: '200px',marginBottom:'3px' }}></img>
-                    <br />
-                    <div style={{left:'0px'}}>
-                    <a href="#" target="_blank" className="icon mt-0"><FacebookIcon style={{fontSize: '38px',color:"#FDCA40"}}/></a>
-                    <a href="#" target="_blank" className="icon mt-0 pl-1 pb-2"><InstagramIcon style={{fontSize:'38px',color:"#FDCA40"}} /></a>
-                    <a href="#" target="_blank" className="icon pl-1 pb-2"><LinkedInIcon style={{fontSize: '38px',color:"#FDCA40"}} /></a>
-                </div>
-                </Col>
-                <Col className="col-xl-5 mt-4 ml-5" style={{textAlign:'left'}}>
-                        <div>
-                        <RoomIcon className="mr-2" style={{fontSize: '6vh',display:'inline-block',verticalAlign:'top' }} />
-                        <p style={{display: 'inline-block',fontSize:'18px',color:'white' }}>
-                            E-cell IIIT Pune <br/> Near Bopdev Ghat,Yewalewadi,Pune-411048
-                        </p>
-                    </div>
-                    <div>
-                        <MailIcon className="mr-2" style={{fontSize: '6vh',display:'inline-block',verticalAlign:'top' }} />
-                        <p style={{display: 'inline-block',fontSize:'18px',marginTop:'8px' }}>
-                        <a href="mailto:ecell@iiitp.ac.in" style={{textDecoration:'none',color:'white'}}>ecell@iiitp.ac.in</a>
-                        </p>
-                    </div>    
-                </Col>
-                <Col className="col-xl-4 mt-3 pr-4">
-                    <p style={{color:'white',fontSize:'22px',fontWeight: 'bolder'}}>About E-cell</p>
-                    <p style={{fontSize:'16px',fontWeight:'lighter',justifyContent:'space-between'}}>E-Cell IIIT Pune is committed to provide assistance to the budding and promising entrepreneurs to become the future leaders of the country.</p>
-                </Col>
-                </Row>
-                
-                <p style={{ color: '#FDCA40', fontSize:'18px',fontWeight:'bolder',marginBottom:'0px'}}>E-cell IIIT PUNE &copy; 2021 </p>
-            </Container>
+        <div class="footer-distributed">
+            <div class="footer-left">
+                <img src="https://raw.githubusercontent.com/satty26/ideathon/main/images/cellt.png" alt=""></img>
+                <br/>
+                    <p class="footer-links">
+                        <a href="#" class="link-1">HOME</a>
+                        <a href="#vision">ABOUT</a>
+                        <a href="#event">EVENT</a>
+                        <a href="#">RESOURCES</a>
+                        <a href="#">TEAM</a>
+                    </p>
+                <p class="footer-company-name">E-Cell IIIT Pune © 2021</p>
+            </div>
+
+            <div class="footer-center">
+            <div>
+            <RoomIcon style={{color:'fdca40',fontSize:'37px'}}/>
+            <p><span>E-Cell IIIT Pune
+            </span> Near Bopdev Ghat, Yewalewadi, Pune-411048</p>
+            </div>
+                <br/>
+            <div style={{marginTop:'3vh'}}>
+            <MailIcon style={{color:'fdca40',fontSize:'35px'}}/>
+            <p><a href="mailto:ecell@iiitp.ac.in">ecell@iiitp.ac.in</a></p>
+            </div>
         </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+            <span>About E-Cell</span>
+            E-Cell IIIT Pune is committed to provide assistance to the budding entrepreneurs to become the future leaders.
+            </p>
+            <div class="footer-icons">
+            <a href="#"><FacebookIcon/></a>
+            <a href="https://instagram.com/ecell_iiitp?igshid=6ivz7097rmfr" target="_blank"><InstagramIcon/></a>
+            <a href="https://www.linkedin.com/company/e-cell-iiit-pune" target="_blank"><LinkedInIcon/></a>
+            </div>
+        </div>
+    </div>
     )
 }
 

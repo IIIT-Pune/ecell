@@ -26,19 +26,19 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar className="justify-content-end ml-auto px-3">
             <NavItem>
-              <NavLink href="/" style={{borderBottom:'#001427',paddingRight:'20px'}} >Home</NavLink>
+              <NavLink href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}} >Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/" style={{borderBottom:'#001427',paddingRight:'20px'}}>About</NavLink>
+              <NavLink href="#vision" style={{borderBottom:'#001427',paddingLeft:'20px'}}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/" style={{borderBottom:'#001427',paddingRight:'20px'}}>Events</NavLink>
+              <NavLink href="#event" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Events</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/" style={{borderBottom:'#001427',paddingRight:'20px'}}>Resources</NavLink>
+              <NavLink href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Resources</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/" style={{borderBottom:'#001427',paddingRight:'20px'}}>Team</NavLink>
+              <NavLink href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Team</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
