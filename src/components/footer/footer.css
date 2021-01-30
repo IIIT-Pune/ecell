@@ -1,18 +1,160 @@
-.foot{
-    width: 100%;
-    background: #001427;
-    color: #FDCA40;
-    padding: 0;
-    letter-spacing: 0.05rem;
-    text-align: left;
-    font-family: 'Montserrat',sans-serif;
-} 
-.centerone{
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
+
+.footer-distributed{
+	background: #001427;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
 }
-.icon{
-    color: white;
-    display: inline-block;
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+    vertical-align: top;
+}
+.footer-distributed img{
+    height: 105px;
+    width: 170px;
+    margin-top: -20px;
+    margin-right: 60vh;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  font-family: 'Montserrat', sans-serif;
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+  padding-right: 10px;
+}
+.footer-distributed .footer-links a:hover{
+	border-bottom: 2px solid #fdca40;
+}
+.footer-distributed .footer-company-name{
+  font-family: 'Montserrat', sans-serif;
+	color:  #fdca40;
+	font-size: 17px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #fdca40;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	color: #e8eef2;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:17px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #fdca40;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  font-family: 'Montserrat', sans-serif;
+	line-height: 20px;
+	color:  #e8eef2;
+	font-size: 17px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #e8eef2;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 10px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-size: 25px;
+	color: #fdca40;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
 }
