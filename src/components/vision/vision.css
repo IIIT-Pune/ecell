@@ -7,7 +7,9 @@
     letter-spacing: 0.05rem;
     padding: 75px 0 0;
     text-align: center;
+    font-size: 1.9vh;
     background-color:#001427;
+    scroll-behavior: smooth;
 }
 h1{
     padding: 5px;
@@ -23,7 +25,7 @@ h1{
     padding-bottom: 10px;
     font-size: 19px;
     line-height: 27px;
-    text-align: center;
+    text-align: justify;
 }
 .card{
     background-color: transparent;
