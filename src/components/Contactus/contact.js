@@ -48,7 +48,7 @@ const Contact = () => {
         </p>
         <Container className="form" data-aos="fade-up">
           <form>
-            <div className="col-sm-6" style={{ display: "inline-block" }}>
+            <div className="col-lg-6" style={{ display: "inline-block" }}>
               <fieldset>
                 <input
                   placeholder="Name"
@@ -66,10 +66,9 @@ const Contact = () => {
                 ></input>
               </fieldset>
             </div>
-            <div className="col-sm-6" style={{ display: "inline-block" }}>
+            <div className="col-lg-6" style={{ display: "inline-block" }}>
               <fieldset>
                 <textarea
-                  row="20"
                   placeholder="Message"
                   onChange={e => setmessage(e.target.value)}
                 ></textarea>

@@ -7,6 +7,7 @@
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
+	scroll-behavior: smooth;
 }
 
 .footer-distributed .footer-left,
@@ -157,4 +158,13 @@
 
 	margin-right: 3px;
 	margin-bottom: 5px;
+}
+@media only screen and (max-width: 500px){
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		padding: 20px 0;
+	}
 }
