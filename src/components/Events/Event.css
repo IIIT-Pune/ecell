@@ -4,9 +4,11 @@
   margin: 0 auto;
   font-family: 'Montserrat',sans-serif;
   letter-spacing: 0.05rem;
-  padding: 75px 0 0;
+  font-size: 1.9vh;
+  padding: 50px 0 0;
   text-align: center;
   background-color:#001427;
+  scroll-behavior: smooth;
 }
 img{
   width:100%;
@@ -15,6 +17,8 @@ img{
   margin:0px auto;
 }
 .box{
+  height: 58vh;
+  width: auto;
   position:relative;
   margin:5px auto;
 }
@@ -31,16 +35,16 @@ img{
   background: rgba(0,0,0,0.7);
 }
 .box .text{
-  width:60%;
+  width:100%;
   height:100%;
   position:absolute;
   color:white;
   top: 0;
   left: 0;
   margin: auto;
-  padding: 5px 10px;
+  padding: 12px 2px;
   box-sizing: border-box;
-  text-align: justify;
+  text-align: center;
   background:rgba(0,0,0,0.7);
   transform:rotateY(90deg);
   transition:all 0.5s ease-in 0s;
@@ -48,22 +52,10 @@ img{
 .box:hover .text{
   transform:rotateY(0);
 }
-.box .text1 p{
-  font-size: 15px;
+.box .text h1{
+  font-size: 4.4vh;
 }
-body{
-  background:#E8EEF2;
-}
-
-@media only screen and (max-width: 600px){
-  .box .text{
-    font-size: 13px;
-  }
-  .box .text1 p{
-    font-size: 13px;
-  }
-  .box .text h1{
-    padding-top: 10px;
-    font-size:30px;
-  }
+.box button{
+  margin: auto 10px;
+  width: auto;
 }
