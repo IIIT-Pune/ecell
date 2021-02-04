@@ -17,17 +17,17 @@ const Hero = () => {
             <p>Entrepreneurship Cell IIIT Pune</p>
           </div>
           <div style={{margin:"15vh"}}>
-            <button style={{width:"20vh"}}>EXPLORE</button>
+            <button style={{width:"20vh",padding:'5px'}}>EXPLORE</button>
           </div>
         </Container>
         <Container fluid style={{ left: '48px', bottom: '80px'}}>
           <div>
               <ul className="icons mb-0">
-              <li><a href="#"><LinkedInIcon style={{fontSize:'45px'}}/></a></li>
-              <li><a href="#"><InstagramIcon style={{fontSize:'45px'}}/></a></li>
+              <li><a href="https://www.linkedin.com/company/e-cell-iiit-pune"><LinkedInIcon style={{fontSize:'45px'}}/></a></li>
+              <li><a href="https://instagram.com/ecell_iiitp?igshid=6ivz7097rmfr"><InstagramIcon style={{fontSize:'45px'}}/></a></li>
               <li><a href="#"><FacebookIcon style={{fontSize:'45px'}}/></a></li>
               <div className="bar ml-2"></div>
-              <div id="vertical"><a href="#vision" style={{textDecoration:'none'}}>IDEATHON &rarr;</a></div>
+              <div id="vertical"><a href="http://ideathon.ecelliiitp.org/" style={{textDecoration:'none'}}>IDEATHON &rarr;</a></div>
             </ul>
           </div>
         </Container>
