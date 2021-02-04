@@ -30,7 +30,6 @@ const NavBar = (props) => {
             <NavItem>
               <NavLink href="#vision" style={{borderBottom:'#001427',paddingLeft:'20px'}}>About</NavLink>
             </NavItem>
-            <NavItem>
             <UncontrolledDropdown nav inNavbar style={{marginLeft:'10px'}}>
               <DropdownToggle nav caret>
                 Events
@@ -41,7 +40,6 @@ const NavBar = (props) => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            </NavItem>
             <NavItem>
               <NavLink href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Resources</NavLink>
             </NavItem>
