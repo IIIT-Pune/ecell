@@ -1,5 +1,4 @@
-import React from 'react'
-import { Container,Row,Col } from 'reactstrap';
+import React from 'react';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';

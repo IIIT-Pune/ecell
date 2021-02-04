@@ -1,6 +1,7 @@
 a {
   font-size: 20px;
   color: rgb(5, 5, 39);
+  font-family: 'Montserrat',sans-serif;
 }
 a:hover{
   animation: fade-up;
