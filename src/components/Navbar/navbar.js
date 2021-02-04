@@ -19,7 +19,7 @@ const NavBar = (props) => {
     <div>
       <Navbar className="navbar" expand="md">
         <NavbarBrand href="/" className="navbar-brand mr-auto"><img className="logo" src={img}></img></NavbarBrand>
-        <NavbarToggler onClick={toggle} style={{marginRight:'50px'}} >
+        <NavbarToggler onClick={toggle} style={{marginRight:'20px'}} >
           <MenuRoundedIcon style={{ color: "#001427" }} />
         </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
