@@ -64,19 +64,19 @@
 }
 #vertical{
   position: absolute;
-  bottom: 30vh;
-  margin-right: -30px;
-  right: 0px;
+  bottom: 10vh;
+  margin-right: -50px;
+  right: 0;
   font-size: 35px;
   transform: rotate(90deg);
   animation: move 1s alternate infinite;
 }
 @keyframes move{
    0%{
-       top:-40px;
+      bottom:14vh;
    }
    100%{
-    top:30px;
+    bottom:8vh;
     }
 }
 @media only screen and (max-width: 1078px){

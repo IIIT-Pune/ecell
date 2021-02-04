@@ -2,8 +2,9 @@ module.exports = {
   pathPrefix: '/',
   siteMetadata: {
     title: "E CELL IIITP",
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: "The Entrepreneurship cell of IIIT Pune.",
+    author: "@ecell",
+    siteUrl:"https://ecelliiitp.org"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,7 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "E CELL IIITP",
+        name: `gatsby-starter-default`,
+        title: `Ecell`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
