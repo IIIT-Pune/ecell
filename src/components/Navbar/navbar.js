@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 import './navbar.css';
 import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
+  Collapse,Navbar,NavbarToggler,
+  NavbarBrand,Nav,NavItem,
+  NavLink,UncontrolledDropdown,
+  DropdownToggle,DropdownMenu,
+  DropdownItem
 } from 'reactstrap';
+import img from '../../images/lastcell49.png';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 
-const Example = (props) => {
+const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -19,7 +18,7 @@ const Example = (props) => {
   return (
     <div>
       <Navbar className="navbar" expand="md">
-        <NavbarBrand href="/" className="navbar-brand mr-auto"><img className="logo mx-0" src="https://cdn.discordapp.com/attachments/804354977467465790/804357385559998565/lastcell49.png"></img></NavbarBrand>
+        <NavbarBrand href="/" className="navbar-brand mr-auto"><img className="logo" src={img}></img></NavbarBrand>
         <NavbarToggler onClick={toggle} style={{marginRight:'50px'}} >
           <MenuRoundedIcon style={{ color: "#001427" }} />
         </NavbarToggler>
@@ -32,7 +31,16 @@ const Example = (props) => {
               <NavLink href="#vision" style={{borderBottom:'#001427',paddingLeft:'20px'}}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#event" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Events</NavLink>
+            <UncontrolledDropdown nav inNavbar style={{marginLeft:'10px'}}>
+              <DropdownToggle nav caret>
+                Events
+              </DropdownToggle>
+              <DropdownMenu right style={{padding:'0px',backgroundColor:'#e9f8fe'}}>
+                <DropdownItem>
+                <NavLink href="/" style={{padding:'5px'}} >Ideathon</NavLink>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             </NavItem>
             <NavItem>
               <NavLink href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Resources</NavLink>
@@ -47,4 +55,4 @@ const Example = (props) => {
   );
 }
 
-export default Example;
+export default NavBar;

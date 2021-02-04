@@ -20,7 +20,9 @@ a:hover{
 }
 .logo {
   justify-content: flex-start;
-  width: 120px;
+  margin-top:0px;
+  margin-left:6px;
+  width: 107px;
   height: 99px;
 }
 .justify-content-end {
