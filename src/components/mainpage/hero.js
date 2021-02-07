@@ -27,7 +27,7 @@ const Hero = () => {
               <li><a href="https://instagram.com/ecell_iiitp?igshid=6ivz7097rmfr"><InstagramIcon style={{fontSize:'45px'}}/></a></li>
               <li><a href="#"><FacebookIcon style={{fontSize:'45px'}}/></a></li>
               <div className="bar ml-2"></div>
-              <div id="vertical"><a href="http://ideathon.ecelliiitp.org/" style={{textDecoration:'none'}}>IDEATHON &rarr;</a></div>
+              <div id="vertical"><a href="https://ideathon.ecelliiitp.org" style={{textDecoration:'none'}}>IDEATHON &rarr;</a></div>
             </ul>
           </div>
         </Container>

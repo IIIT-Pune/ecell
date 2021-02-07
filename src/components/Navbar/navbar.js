@@ -36,7 +36,7 @@ const NavBar = (props) => {
               </DropdownToggle>
               <DropdownMenu right style={{padding:'0px',backgroundColor:'#e9f8fe'}}>
                 <DropdownItem>
-                <NavLink href="http://ideathon.ecelliiitp.org/" style={{padding:'5px'}} >Ideathon</NavLink>
+                <NavLink href="https://ideathon.ecelliiitp.org" style={{padding:'5px'}} >Ideathon</NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
