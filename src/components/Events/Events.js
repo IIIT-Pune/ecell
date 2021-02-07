@@ -17,7 +17,7 @@ const Events = () => {
                 <h1 style={{marginTop:'-6vh',marginBottom:'3vh',lineHeight:'5vh',color:'#FDCA40'}}>IDEATHON</h1>
                 <p style={{ textAlign: 'justify', paddingLeft: '20px', paddingRight: '20px' }}>Ideathon is about curating ideas and contemplating their probable benefit to the society. It's rightly said, "A good idea becomes great when you let it out." It's an opportune moment for you to propose a rational solution to the challenges existing in the society or come forth with the best possible mix of idea and innovation, offering authentic products to the society.</p>
                 <div style={{margin:"2vh"}}>
-                    <Button href="http://ideathon.ecelliiitp.org/" className="button">
+                    <Button href="https://ideathon.ecelliiitp.org" className="button">
                         <FiberManualRecordIcon style={{ color: 'red', paddingRight: '4px', fontSize: '20px' }} />EXPLORE
                     </Button>
                 </div>    
