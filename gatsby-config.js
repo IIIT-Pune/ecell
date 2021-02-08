@@ -7,6 +7,15 @@ module.exports = {
     siteUrl:"https://ecelliiitp.org"
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-180676945-1",
+        head: true,
+        anonymize: true,
+        pageTransitionDelay: 0,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -27,11 +36,9 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/ecelliiitpune.jpeg`, // This path is relative to the root of the site.
+        icon: `src/images/ecelliiitpune.jpeg`, 
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-smoothscroll`,
   ],
 }

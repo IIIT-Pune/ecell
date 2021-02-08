@@ -7,6 +7,7 @@ import {
   DropdownToggle,DropdownMenu,
   DropdownItem
 } from 'reactstrap';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 import img from '../../images/lastcell49.png';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 
@@ -28,7 +29,7 @@ const NavBar = (props) => {
               <NavLink href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}} >Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#vision" style={{borderBottom:'#001427',paddingLeft:'20px'}}>About</NavLink>
+              <NavLink onClick={() => scrollTo('#vision')} style={{borderBottom:'#001427',paddingLeft:'20px',cursor:'pointer'}}>About</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar style={{marginLeft:'10px'}}>
               <DropdownToggle nav caret>
