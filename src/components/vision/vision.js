@@ -23,7 +23,7 @@ const Vision = () => {
         <div className="main" id="vision">
             <h1 style={{color:'white'}} data-aos="fade-up">Our</h1>
             <h1 style={{ color: '#FDCA40' }} data-aos="fade-up">Vision</h1>
-            <Container className="para" data-aos="fade-up">
+            <Container fluid className="para" data-aos="fade-up">
                 We aim to create a thirst for innovation and an ecosystem where students can think, learn and formulate a business plan of their own. Our purpose stands to help the aspiring entrepreneurs weave their stories of success by becoming the powerful business leaders they believe to be.
             </Container>
             <Container fluid className="mt-4 px-5">
