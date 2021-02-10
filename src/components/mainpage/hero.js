@@ -23,9 +23,9 @@ const Hero = () => {
         <Container fluid style={{ left: '48px', bottom: '80px'}}>
           <div>
               <ul className="icons mb-0">
-              <li><a href="https://www.linkedin.com/company/e-cell-iiit-pune"><LinkedInIcon style={{fontSize:'45px'}}/></a></li>
-              <li><a href="https://instagram.com/ecell_iiitp?igshid=6ivz7097rmfr"><InstagramIcon style={{fontSize:'45px'}}/></a></li>
-              <li><a href="#"><FacebookIcon style={{fontSize:'45px'}}/></a></li>
+              <li><a href="https://www.linkedin.com/company/e-cell-iiit-pune"><LinkedInIcon style={{fontSize:'6vh'}}/></a></li>
+              <li><a href="https://instagram.com/ecell_iiitp?igshid=6ivz7097rmfr"><InstagramIcon style={{fontSize:'6vh'}}/></a></li>
+              <li><a href="#"><FacebookIcon style={{fontSize:'6vh'}}/></a></li>
               <div className="bar ml-2"></div>
               <div id="vertical"><a href="https://ideathon.ecelliiitp.org" style={{textDecoration:'none'}}>IDEATHON &rarr;</a></div>
             </ul>

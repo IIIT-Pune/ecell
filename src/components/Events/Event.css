@@ -21,6 +21,7 @@ img{
   width: auto;
   position:relative;
   margin:5px auto;
+  border-radius: 2px;
 }
 .box .image{
   width:100%;
