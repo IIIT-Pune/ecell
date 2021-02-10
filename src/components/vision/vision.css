@@ -5,7 +5,7 @@
     margin: 0 auto;
     font-family: 'Montserrat',sans-serif;
     letter-spacing: 0.05rem;
-    padding: 75px 20px 20px;
+    padding: 75px 0px 20px;
     text-align: center;
     font-size: 1.9vh;
     background-color:#001427;
@@ -22,11 +22,12 @@ h1{
 }
 .para{
     color: rgba(232, 238, 242, 0.75);
-    width: 55%;
+    width: 71%;
+    margin: 0 auto;
     padding: 10px;
     font-size: 19px;
     line-height: 27px;
-    text-align: justify;
+    text-align: center;
 }
 .card{
     background-color: transparent;
