@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://ecelliiitp.org/sitemap.xml
+Host: https://ecelliiitp.org
