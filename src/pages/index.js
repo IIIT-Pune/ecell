@@ -5,15 +5,11 @@ import Events from '../components/Events/Events';
 import Contact from '../components/Contactus/contact';
 import Footer from '../components/footer/footer';
 import Hero from '../components/mainpage/hero';
-import { Helmet } from "react-helmet"
+import SEO from '../components/seo'
 
 const IndexPage = () => (
   <>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>E-Cell | IIIT Pune</title>
-      <link rel="canonical" href="http://mysite.com/example" />
-    </Helmet>
+    <SEO title="Home"/>
     <Hero />
     <Vision />
     <Events />
