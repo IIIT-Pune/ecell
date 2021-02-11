@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: "E CELL IIITP",
+    title: "E CELL IIIT Pune",
     description: "The Entrepreneurship cell of IIIT Pune.",
     author: "@ecell",
     siteUrl:"https://ecelliiitp.org"
@@ -39,5 +39,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-smoothscroll`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://ecelliiitp.org/',
+        sitemap: 'https://ecelliiitp.org/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
   ],
 }
