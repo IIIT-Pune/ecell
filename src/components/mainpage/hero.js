@@ -1,6 +1,7 @@
 import React from 'react'
 import './hero.css';
 import { Container } from 'reactstrap';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 import Navbars from '../Navbar/navbar';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -27,7 +28,7 @@ const Hero = () => {
               <li><a href="https://instagram.com/ecell_iiitp?igshid=6ivz7097rmfr"><InstagramIcon style={{fontSize:'6vh'}}/></a></li>
               <li><a href="#"><FacebookIcon style={{fontSize:'6vh'}}/></a></li>
               <div className="bar ml-2"></div>
-              <div id="vertical"><a href="https://ideathon.ecelliiitp.org" style={{textDecoration:'none'}}>IDEATHON &rarr;</a></div>
+              <div id="vertical"><a onClick={() => scrollTo('#event')} style={{textDecoration:'none'}}>EVENTS &rarr;</a></div>
             </ul>
           </div>
         </Container>
