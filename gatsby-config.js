@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: "E CELL IIIT Pune",
-    description: "The Entrepreneurship cell of IIIT Pune.",
+    title: ``,
+    description: ``,
     author: "@ecell",
     siteUrl:"https://ecelliiitp.org"
   },
@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "G-ZNSE6RNPE0",
+        trackingId: "G-ZQ4N9MMPT9",
         head: true,
         anonymize: true,
       },

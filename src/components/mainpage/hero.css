@@ -64,8 +64,8 @@
 }
 #vertical{
   position: absolute;
-  bottom: 10vh;
-  margin-right: -50px;
+  bottom: 9vh;
+  margin-right: -35px;
   right: 0;
   font-size: 35px;
   transform: rotate(90deg);

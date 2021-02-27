@@ -3,9 +3,7 @@ import './navbar.css';
 import {
   Collapse,Navbar,NavbarToggler,
   NavbarBrand,Nav,NavItem,
-  NavLink,UncontrolledDropdown,
-  DropdownToggle,DropdownMenu,
-  DropdownItem
+  NavLink
 } from 'reactstrap';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import img from '../../images/lastcell49.png';
@@ -31,16 +29,9 @@ const NavBar = (props) => {
             <NavItem>
               <NavLink onClick={() => scrollTo('#vision')} style={{borderBottom:'#001427',paddingLeft:'20px',cursor:'pointer'}}>About</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar style={{marginLeft:'10px'}}>
-              <DropdownToggle nav caret>
-                Events
-              </DropdownToggle>
-              <DropdownMenu right style={{padding:'0px',backgroundColor:'#e9f8fe'}}>
-                <DropdownItem>
-                <NavLink href="https://ideathon.ecelliiitp.org" style={{padding:'5px'}} >Ideathon</NavLink>
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink onClick={() => scrollTo('#event')} style={{borderBottom:'#001427',paddingLeft:'20px',cursor:'pointer'}}>Events</NavLink>
+            </NavItem>
             <NavItem>
               <NavLink href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Resources</NavLink>
             </NavItem>
