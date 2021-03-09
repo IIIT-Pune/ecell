@@ -1,8 +1,7 @@
 .herobg{
     height: auto;
-    background-image: url("../../images/bg.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    width: 100%;
+    background: url("../../images/bg.jpeg") repeat fixed center;
     background-size: 100% 100%;
     scroll-behavior: smooth;
     font-family: 'Montserrat',sans-serif;
@@ -54,6 +53,14 @@
   height:30px;
   width:30px;
   text-align: center;
+}
+.marque{
+  display: block;
+  margin-top: 0.02vh;
+  overflow-x: hidden;
+  color: #001427;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 .bar{
   height:4px;
