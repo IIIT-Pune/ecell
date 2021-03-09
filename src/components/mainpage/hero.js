@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
         </Container>
           <marquee className="marque">
-          <a href="https://www.octaflyte.com/" target="_blank" style={{ textDecoration: 'none' }}>[Update]E-Cell IIIT Pune is proud to present "Octaflyte Technologies Pvt. Ltd.", a startup founded by Umang Kalra (from IIIT Pune) and his team.
+          <a href="https://www.octaflyte.com/" target="_blank" style={{ textDecoration: 'none' }}>[UPADTE]E-Cell IIIT Pune is proud to present "Octaflyte Technologies Pvt. Ltd.", a startup founded by Umang Kalra (from IIIT Pune) and his team.
           Visit https://www.octaflyte.com/ for more details</a>
           </marquee>
       </div>
