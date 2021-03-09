@@ -21,7 +21,7 @@ const Hero = () => {
             <button style={{ width: "20vh", padding: '5px' }}>EXPLORE</button>
           </div>
         </Container>
-        <Container fluid style={{ left: '48px', bottom: '120px'}}>
+        <Container fluid style={{ left: '48px', bottom: '90px'}}>
           <div>
               <ul className="icons mb-0">
               <li><a href="https://www.linkedin.com/company/e-cell-iiit-pune"><LinkedInIcon style={{fontSize:'6vh'}}/></a></li>
@@ -33,7 +33,8 @@ const Hero = () => {
           </div>
         </Container>
           <marquee className="marque">
-            <a href="https://www.octaflyte.com/" style={{textDecoration:'none'}}>E-Cell IIIT Pune is proud to present "Octaflyte Technologies Pvt. Ltd.", a startup founded by Umang Kalra (from IIIT Pune) and his team.</a>
+          <a href="https://www.octaflyte.com/" target="_blank" style={{ textDecoration: 'none' }}>[Update]E-Cell IIIT Pune is proud to present "Octaflyte Technologies Pvt. Ltd.", a startup founded by Umang Kalra (from IIIT Pune) and his team.
+          Visit https://www.octaflyte.com/ for more details</a>
           </marquee>
       </div>
     </div>

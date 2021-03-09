@@ -56,11 +56,10 @@
 }
 .marque{
   display: block;
-  margin-top: 0.02vh;
   overflow-x: hidden;
   color: #001427;
   font-size: 2rem;
-  font-weight: bolder;
+  font-weight: 40;
 }
 .bar{
   height:4px;
