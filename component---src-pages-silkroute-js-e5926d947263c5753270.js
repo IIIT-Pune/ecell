@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"5tSa":function(t,e,n){"use strict";n.r(e);var o=n("q1tI"),c=n.n(o);e.default=function(){return Object(o.useEffect)((function(){void 0!==typeof window&&(window.location.href="https://dare2compete.com/o/hfbkW4x?refId=C9AwjtE")}),[]),c.a.createElement(c.a.Fragment,null)}}}]);
+//# sourceMappingURL=component---src-pages-silkroute-js-e5926d947263c5753270.js.map
