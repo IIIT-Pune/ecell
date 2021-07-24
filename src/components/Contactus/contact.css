@@ -49,6 +49,9 @@ h1{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
     border-radius: 6px;
     width: auto;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 0.001rem;
+    font-weight: 50;
     padding: 5px;
     height: auto;
     color: #FDCA40;
