@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{ useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import PreferenceButton from "./preference-button";
@@ -6,6 +6,7 @@ import Options from "./options";
 import { db } from "../firebase";
 import { useState } from "react";
 import '../form_style.css';
+import Aos from 'aos';
 
 function RightCard() {
   const timestamp = new Date().toLocaleTimeString();
@@ -13,6 +14,12 @@ function RightCard() {
   const [email, setEmail] = useState("");
   const [cnum, setContact] = useState("");
   const [message, setMessage] = useState("");
+  useEffect(() => {
+    Aos.init({ offset: 200,
+        duration: 600,
+        easing: 'ease-in-sine',
+        delay: 100 });
+}, [])
   const handleSubmit = (e) => {
     e.preventDefault();
     db.collection("recentData")

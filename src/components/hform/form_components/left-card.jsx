@@ -1,17 +1,26 @@
-import React from 'react';
+import React ,{ useEffect } from 'react';
 import hiringSvg from "../../../images/We-Are-Hiring-Stretched.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Aos from 'aos';
 import { faInstagram,faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import '../form_style.css';
 
-function LeftCard(){
-    return (
+function LeftCard() {
+  useEffect(() => {
+    Aos.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100
+    });
+  }, []);
+  return (
         <div className="card-1">
         <h1 style={{fontFamily:'Zen Tokyo Zoo'}}>
           E-Cell IIIT Pune <span>Recruitment Form</span>
         </h1>
-        <img src={hiringSvg} alt="We-Are-Hiring" style={{margin:'5px'}}/>
+        <img src={hiringSvg} alt="We-Are-Hiring" style={{marginTop:'5px'}}/>
         <div>
           <h1>
             Contact <span>Us</span>
