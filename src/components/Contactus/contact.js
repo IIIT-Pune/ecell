@@ -46,21 +46,24 @@ const Contact = () => {
         >
           Leave a message to contact our team
         </p>
-        <Container className="form" data-aos="fade-up">
+        <Container className="form_con" data-aos="fade-up">
           <form>
             <div className="col-lg-6" style={{ display: "inline-block" }}>
               <fieldset>
                 <input
+                  className="input_con"
                   placeholder="Name"
                   onChange={e => setname(e.target.value)}
                 ></input>
                 <br />
                 <input
+                  className="input_con"
                   placeholder="Email"
                   onChange={e => seteamil(e.target.value)}
                 ></input>
                 <br />
                 <input
+                  className="input_con"
                   placeholder="Subject"
                   onChange={e => setsubject(e.target.value)}
                 ></input>
@@ -69,6 +72,7 @@ const Contact = () => {
             <div className="col-lg-6" style={{ display: "inline-block" }}>
               <fieldset>
                 <textarea
+                  className="textarea_con"
                   placeholder="Message"
                   onChange={e => setmessage(e.target.value)}
                 ></textarea>

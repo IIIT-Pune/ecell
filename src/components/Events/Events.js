@@ -1,5 +1,6 @@
 import React from 'react';
 import './Event.css';
+import Link from 'gatsby';
 import { Row,Col,Container,Button } from 'reactstrap';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 
@@ -18,7 +19,7 @@ const Events = () => {
                 <p style={{ textAlign: 'justify', paddingLeft: '20px', paddingRight: '20px' }}>Ideathon is about curating ideas and contemplating their probable benefit to the society. It's rightly said, "A good idea becomes great when you let it out." It's an opportune moment for you to propose a rational solution to the challenges existing in the society or come forth with the best possible mix of idea and innovation, offering authentic products to the society.</p>
                 <div style={{margin:"2vh"}}>
                     <Button href="https://ideathon.ecelliiitp.org" className="button">
-                            {/*<FiberManualRecordIcon style={{ color: 'red', paddingRight: '4px', fontSize: '20px' }} />*/}EXPLORE
+                            {/*<FiberManualRecordIcon style={{ color: 'red', paddingRight: '4px', fontSize: '20px' }} />*/} COMING SOON
                     </Button>
                 </div>    
                 </Container>                
@@ -29,8 +30,8 @@ const Events = () => {
                 <h1 style={{marginTop:'-6vh',marginBottom:'3vh',lineHeight:'5vh',color:'#FDCA40'}}>HACKATHON</h1>
                 <p style={{ textAlign: 'justify', paddingLeft: '20px', paddingRight: '20px' }}>An inventive mind creates resourceful products inspired from the best. Designing software based products with accurate amounts of innovation, design and user-friendly techniques to solve the given problems is the gist of any Hackathon. Connect with like-minded people to combine your enthusiasm levels to come up with authentic software solutions.</p>
                 <div style={{margin:"2vh"}}>
-                    <Button className="button">
-                        COMING SOON            
+                    <Button href="https://hackathon.ecelliiitp.org/" className="button">
+                                {/*<FiberManualRecordIcon style={{ color: 'red', paddingRight: '4px', fontSize: '20px' }}/> */} COMING SOON
                     </Button>            
                 </div>    
                 </Container>                
@@ -54,7 +55,8 @@ const Events = () => {
                 <p style={{ textAlign: 'justify', paddingLeft: '20px', paddingRight: '20px' }}>Entrepreneurship is a dynamic concept. It changes as the nations develop. The millennials aiming to be the exemplar figures of tomorrow ought to keep themselves informed of the history and future of entrepreneurship as success in any domain demands awareness. Test your knowledge and responsiveness in the field of entrepreneurship through the E-Quiz.</p>
                 <div style={{margin:"2vh"}}>
                     <Button className="button">
-                        COMING SOON            
+                            {/*<FiberManualRecordIcon style={{ color: 'red', paddingRight: '4px', fontSize: '20px' }} />*/}
+                            EXPLORE
                     </Button> 
                 </div>        
                 </Container>             
