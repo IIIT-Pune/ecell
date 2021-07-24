@@ -2,11 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Nunito&display=swap');
 
+*, *::after, *::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 2;
+}
 .rec_body{
-    display: block;
+    display: flex;
     flex-direction: column;
-    height: 150vh;
-    justify-content: center;
+    min-height: 138vh;
+    justify-content:flex-start;
     align-items: center;
     font-family: 'Zen Tokyo Zoo', cursive;
     background-color: #f7e3ab;
@@ -15,7 +22,6 @@
 {
     position: relative;
     display: flex;
-    justify-content: center;
     width: 100%;
     max-width: 1280px;
     background-color: white;
@@ -37,10 +43,11 @@
 {
     pointer-events: none;
     position: absolute;
-    width: 96px;
-    height: 126px;
+    width: 327.46px;
+    height: 429.5px;
     right: 5px;
     bottom: 5px;
+    z-index: 1;
     filter: blur(4px);
 }
 .card-1
@@ -81,7 +88,7 @@
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    margin: 5px 16px;
+    margin: 6px 16px;
     border: none;
     cursor: pointer;
     box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.15);
@@ -103,6 +110,7 @@ form
 {
     width: 100%;
     display: flex;
+    z-index: 2;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -133,6 +141,7 @@ form
 section
 {
     width: 100%;
+    z-index: 2;
     margin-bottom: 50px;
 }
 .fields
@@ -263,6 +272,7 @@ button
     padding: 10px;
     font-size: larger;
     color: #041424;
+    z-index: 2;
     font-weight: bolder;
     border-radius: 10px;
     box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.15);

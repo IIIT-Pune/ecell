@@ -114,7 +114,7 @@ function RightCard() {
           <span className="last-question">
             <label htmlFor="text-box">
               What will you bring on the table for E-Cell? Feel free to add
-              links to your previous works also.
+              links to your previous works.
             </label>
           </span>
           <div className="fields">

@@ -7,8 +7,8 @@ import RightCard from './form_components/right-card.jsx';
 
 function Recruitform() {
   return (
-    <div className="rec_body" style={{ backgroundColor:'#f4c542'}}>
-        <div className="container_form" data-aos="fade-up" style={{opacity: '1',left: '15vh'}}>
+    <div className="rec_body" style={{paddingTop:'0px'}}>
+        <div className="container_form" data-aos="fade-up" style={{opacity: '1'}}>
           <img className="asset-2" src={topLeftGradient} alt="Design-shape" />
           <img className="asset-1" src={bottomRightGradient} alt="Design-shape" />
           <LeftCard />

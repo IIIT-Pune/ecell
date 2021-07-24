@@ -8,7 +8,7 @@ import '../form_style.css';
 function LeftCard(){
     return (
         <div className="card-1">
-        <h1>
+        <h1 style={{fontFamily:'Zen Tokyo Zoo'}}>
           E-Cell IIIT Pune <span>Recruitment Form</span>
         </h1>
         <img src={hiringSvg} alt="We-Are-Hiring" />
