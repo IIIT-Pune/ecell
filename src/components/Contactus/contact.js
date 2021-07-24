@@ -79,7 +79,7 @@ const Contact = () => {
               </fieldset>
             </div>
           </form>
-          <button onClick={formsubmit}>Send Message</button>
+          <button className="button_con" onClick={formsubmit}>Send Message</button>
         </Container>
         <br></br>
       </div>
