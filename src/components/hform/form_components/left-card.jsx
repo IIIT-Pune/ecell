@@ -11,7 +11,7 @@ function LeftCard(){
         <h1 style={{fontFamily:'Zen Tokyo Zoo'}}>
           E-Cell IIIT Pune <span>Recruitment Form</span>
         </h1>
-        <img src={hiringSvg} alt="We-Are-Hiring" />
+        <img src={hiringSvg} alt="We-Are-Hiring" style={{margin:'5px'}}/>
         <div>
           <h1>
             Contact <span>Us</span>

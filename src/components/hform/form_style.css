@@ -12,7 +12,7 @@
 .rec_body{
     display: flex;
     flex-direction: column;
-    min-height: 138vh;
+    min-height: 100vh;
     justify-content:flex-start;
     align-items: center;
     font-family: 'Zen Tokyo Zoo', cursive;
