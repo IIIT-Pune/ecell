@@ -36,6 +36,9 @@ const NavBar = (props) => {
               <NavLink href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Resources</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href="/recruitment" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Careers</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Team</NavLink>
             </NavItem>
           </Nav>
