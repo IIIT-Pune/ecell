@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"5tSa":function(n,t,e){"use strict";e.r(t);var o=e("q1tI"),c=e.n(o);t.default=function(){return Object(o.useEffect)((function(){void 0!==typeof window&&(window.location.href="https://google.com")}),[]),c.a.createElement(c.a.Fragment,null)}}}]);
-//# sourceMappingURL=component---src-pages-silkroute-js-5802deeb85eb816b946e.js.map
