@@ -1,7 +1,14 @@
-import React from 'react';
+import React ,{ useEffect } from 'react';
 import '../form_style.css';
+import Aos from 'aos';
 
 function PreferenceButton(props) {
+  useEffect(() => {
+    Aos.init({ offset: 200,
+        duration: 600,
+        easing: 'ease-in-sine',
+        delay: 100 });
+}, [])
   return (
     <select id={props.name} required>
       <option value="" selected="selected" disabled hidden>
