@@ -19,7 +19,7 @@ const Footer = () => {
                         <a href="#">RESOURCES</a>
                         <a href="#">TEAM</a>
                     </p>
-                <p class="footer-company-name">E-Cell IIIT Pune © 2021</p>
+                <p class="footer-company-name">E-Cell IIIT Pune © 2022</p>
             </div>
 
             <div class="footer-center">
@@ -40,7 +40,7 @@ const Footer = () => {
             E-Cell IIIT Pune is committed to provide assistance to the budding entrepreneurs to become the future leaders.
             </p>
             <div class="footer-icons">
-            <a href="#"><FacebookIcon/></a>
+            <a href="#https://www.facebook.com/iiitpune/"><FacebookIcon/></a>
             <a href="https://instagram.com/ecell_iiitp?igshid=6ivz7097rmfr" target="_blank"><InstagramIcon/></a>
             <a href="https://www.linkedin.com/company/e-cell-iiit-pune" target="_blank"><LinkedInIcon/></a>
             </div>
